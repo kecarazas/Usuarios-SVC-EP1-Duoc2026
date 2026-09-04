@@ -68,3 +68,32 @@ mvn verify    # + verificación de cobertura JaCoCo (100% LINE, falla si baja)
 Elegimos GitFlow porque el proyecto se va desarrollando durante todo el semestre y cada entrega (EP01, EP02 y EP03) funciona como un punto importante y estable del proyecto. La rama **develop** nos permite juntar el trabajo de ambos integrantes sin modificar directamente **main**, por otro lado, si aparece algún error en producción, podemos usar una rama **hotfix/** para solucionarlo sin tener que detener el trabajo que estamos haciendo en desarrollo. 
 
 También nos sirve para tener más orden, ya que **main** queda para las versiones estables y **develop** para el código que todavía estamos integrando y probando, así podemos llevar un mejor control de los cambios y tener más claro qué se ha hecho en cada etapa del proyecto, especialmente en relación con lo que se pide en las rúbricas del curso.
+
+## Convención de commits
+|Tipo |Para qué |Ejemplo
+|--------|------|-------------|
+feat |Nueva funcionalidad feat(ui):| agregar pie de pagina
+fix |Corrección de bug fix(home):| corregir titulo
+docs |Documentación docs: |agregar changelog
+chore |Tareas / CI chore(ci):| agregar workflow hola mundo
+
+Formato: **tipo(alcance):** descripcion-corta. Escrito en minúsculas y sin tildes.
+
+## Naming de ramas
+ * feature/<feature-name> y hotfix/<feature-name>, en minúsculas y con guiones.
+ * Ejemplos: feature/pagina-presentacion, hotfix/titulo-pagina.
+
+## Flujo de merge
+* Features y hotfix siempre entran por pull request, nunca push directo a main o develop.
+
+* Se necesita al menos 1 aprobación del compañero antes de fusionar.
+
+*  Usar merge commit o squash, y borrar la rama después de fusionar.
+
+## Estrategia de revisión
+* El autor abre el PR y asigna un revisor.
+* El revisor comenta, aprueba o pide cambios; nunca se fusiona un PR sin revisar.
+* Antes de cada PR: confirmar que mvn test pasa y revisar la diff.
+
+**Opcional:** crea PULL_REQUEST_TEMPLATE.md para automatizar la plantilla de revisión desde
+GitHub.
