@@ -62,3 +62,9 @@ docker compose up --build
 mvn test      # unit tests + Cucumber
 mvn verify    # + verificación de cobertura JaCoCo (100% LINE, falla si baja)
 ```
+
+## Modelo de ramificación
+
+Elegimos GitFlow porque el proyecto se va desarrollando durante todo el semestre y cada entrega (EP01, EP02 y EP03) funciona como un punto importante y estable del proyecto. La rama **develop** nos permite juntar el trabajo de ambos integrantes sin modificar directamente **main**, por otro lado, si aparece algún error en producción, podemos usar una rama **hotfix/** para solucionarlo sin tener que detener el trabajo que estamos haciendo en desarrollo. 
+
+También nos sirve para tener más orden, ya que **main** queda para las versiones estables y **develop** para el código que todavía estamos integrando y probando, así podemos llevar un mejor control de los cambios y tener más claro qué se ha hecho en cada etapa del proyecto, especialmente en relación con lo que se pide en las rúbricas del curso.
