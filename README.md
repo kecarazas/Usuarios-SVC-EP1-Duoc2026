@@ -97,3 +97,14 @@ Formato: **tipo(alcance):** descripcion-corta. Escrito en minúsculas y sin tild
 
 **Opcional:** crea PULL_REQUEST_TEMPLATE.md para automatizar la plantilla de revisión desde
 GitHub.
+
+## Conclusiones 
+
+Kevin Carazas:
+
+* Este trabajo nos ayudo a como hacer un entorno de trabajo real colaborativo estructurado en donde teniamos que aprender e investigar sobre como hay que aplicar correctamente los comandos para crear, subir y editar el repositorio, en lo personal aprendi mucho comandos que me serviran mucho en el futuro. 
+
+
+
+## Uso de la IA
+Para este trabajo no se ocupo IA.
