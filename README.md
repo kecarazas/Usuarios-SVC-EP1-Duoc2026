@@ -104,7 +104,10 @@ Kevin Carazas:
 
 * Este trabajo nos ayudo a como hacer un entorno de trabajo real colaborativo estructurado en donde teniamos que aprender e investigar sobre como hay que aplicar correctamente los comandos para crear, subir y editar el repositorio, en lo personal aprendi mucho comandos que me serviran mucho en el futuro. 
 
+Nicolas Tapia:
+
+* Gracias a este trabajo logre aprender mejor el uso de los comandos de git en la terminal y aprendí sobre la importancia de llevar un entorno de trabajo colaborativo estructurado y de el efectivo uso de las buenas practicas en este mismo
 
 
 ## Uso de la IA
-Para este trabajo no se ocupo IA.
+Para este trabajo no fue necesario el uso de la IA.
